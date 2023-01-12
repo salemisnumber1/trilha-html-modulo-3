@@ -1,44 +1,201 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O Senhor dos Anéis</title>
+    <link href="assets/lotr.png" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <figure class="logo">
+        <img src="assets/lotr.png" width="60" alt="Logo do site" />
+      </figure>
+    </header>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
-    </div>
+    <nav class="bar"></nav>
 
-    <div class="bar"></div>
+    <main class="content">
+      <nav class="sidebar">
+        <h2>Conteúdo</h2>
+        <ul>
+          <li><a href="index.html">Início</a></li>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
-            </ul>
-        </div>
+          <li>
+            <details>
+              <summary>Características Principais</summary>
+              <li><a href="#sinopse">Sinopse</a></li>
+              <li><a href="#sociedade">A Sociedade do Anel</a></li>
+              <li><a href="#torres">As Duas Torres</a></li>
+              <li><a href="#retorno">O Retorno do Rei</a></li>
+            </details>
+          </li>
+        </ul>
+      </nav>
 
-        <div class="main">
+      <div>
+        <header class="main">
+          <h1 class="title">
+            <span><i>O Senhor dos Anéis</i></span>
+          </h1>
+        </header>
+
+        <table class="table">
+          <tbody>
+            <tr>
+              <th colspan="2" class="topo televisao2" style="font-size: 1.5em; background-color: grey; font-style: italic; padding: 4px; text-align: center;">
+                <span>O Senhor dos Anéis</span>
+              </th>
+            </tr>
+            <tr>
+              <th colspan="2" style="text-align: center; background-color: grey; padding: 4px;">
+                <small><i>O Senhor dos Anéis</i>;(pt-br)</small>
+              </th>
+            </tr>
+
+            <tr>
+              <td colspan="2" style="text-align: center">
+                <figure>
+                  <img alt="miniatura do Um Anel de Sauron em desenho" src="assets/lotr.png" width="50" />
+                </figure>
+                <br />
+                <figure>
+                  <img alt="imagem ilustrativa do box de livros da trilogia do Anel" src="assets/box-lotr.jpg" width="200" />
+                  <figcaption>Com o design cuidadosamente pensado para refletir a unidade da obra e os desenhos originais feitos por tolkien para as capas de cada volume, este box reúne os três livros da saga do anel e oferece aos leitores uma nova oportunidade de mergulhar no notável mundo da terra-média.</figcaption>
+                </figure><br>
+              </td>
+            </tr>
             
-        </div>
+            <tr>
+                <th colspan="2" style="text-align:center; background-color:#b0c4de; color:#000;text-align:center;">Informações</th>
+            </tr>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
-    </div>
+            <tr>
+                <td scope="row" style="vertical-align: top; text-align: left; text-align:left;"><b>Autor(es)</b></td>
+                <td style="vertical-align: top; text-align: left; vertical-align: text-top; line-height: 1.5em;"><a href="https://pt.wikipedia.org/wiki/J._R._R._Tolkien" title="J. R. R. Tolkien">J. R. R. Tolkien</a></td>
+            </tr>
+            <tr>
+                <td scope="row" style="vertical-align: top; text-align: left; text-align:left;"><b>Gênero</b></td>
+                <td style="vertical-align: top; text-align: left; vertical-align: text-top; line-height: 1.5em;">
+                    <ul>
+                        <li><a href="https://pt.wikipedia.org/wiki/Literatura_fant%C3%A1stica" title="Literatura fantástica">Fantasia</a></li>
+                        <li><a href="https://pt.wikipedia.org/wiki/Aventura_(g%C3%AAnero_de_hist%C3%B3rias_em_quadrinhos)" title="Aventura (gênero de histórias em quadrinhos)">Aventura</a></li>
+                    </ul>
+                </td>
+            </tr>
+     
+                <tr>
+                    <td scope="row" style="vertical-align: top; text-align: left; text-align:left;"><b>Idioma original</b></td>
+                    <td style="vertical-align: top; text-align: left; vertical-align: text-top; line-height: 1.5em;"><a href="https://pt.wikipedia.org/wiki/L%C3%ADngua_inglesa" title="Língua inglesa">Inglês</a></td>
+                </tr>
 
-    <div class="footer">
+                <tr>
+                    <td scope="row" style="vertical-align: top; text-align: left; text-align:left;"><b>País de origem</b></td>
+                    <td style="vertical-align: top; text-align: left; vertical-align: text-top; line-height: 1.5em;"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/22px-Flag_of_the_United_Kingdom_%283-5%29.svg.png" decoding="async" width="22" height="13" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/33px-Flag_of_the_United_Kingdom_%283-5%29.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/44px-Flag_of_the_United_Kingdom_%283-5%29.svg.png 2x" data-file-width="1000" data-file-height="600">&nbsp;<a href="https://pt.wikipedia.org/wiki/Reino_Unido" title="Reino Unido">Reino Unido</a></td>
+                </tr>
+     
+                <tr>
+                    <td scope="row" style="vertical-align: top; text-align: left; text-align:left;"><b>Tradução</b></td>
+                    <td style="vertical-align: top; text-align: left; vertical-align: text-top; line-height: 1.5em;"><a href="/wiki/Brasil" title="Brasil"><img alt="Brasil" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/22px-Flag_of_Brazil.svg.png" decoding="async" width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/33px-Flag_of_Brazil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/44px-Flag_of_Brazil.svg.png 2x" data-file-width="749" data-file-height="525"></a> Antônio Rocha <small>(1ª edição; Artenova)</small><br><a href="/wiki/Brasil" title="Brasil"><img alt="Brasil" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/22px-Flag_of_Brazil.svg.png" decoding="async" width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/33px-Flag_of_Brazil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/44px-Flag_of_Brazil.svg.png 2x" data-file-width="749" data-file-height="525"></a> Alberto Monjardim <small>(1ª edição; Artenova)</small><br> <a href="/wiki/Brasil" title="Brasil"><img alt="Brasil" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/22px-Flag_of_Brazil.svg.png" decoding="async" width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/33px-Flag_of_Brazil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/44px-Flag_of_Brazil.svg.png 2x" data-file-width="749" data-file-height="525"></a> Lenita Maria Rimoli Esteves <small>(1ª edição; Martins Fontes)</small><br> <a href="/wiki/Brasil" title="Brasil"><img alt="Brasil" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/22px-Flag_of_Brazil.svg.png" decoding="async" width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/33px-Flag_of_Brazil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/44px-Flag_of_Brazil.svg.png 2x" data-file-width="749" data-file-height="525"></a> Almiro Pisetta <small>(2ª edição; Martins Fontes)</small><br> <a href="/wiki/Brasil" title="Brasil"><img alt="Brasil" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/22px-Flag_of_Brazil.svg.png" decoding="async" width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/33px-Flag_of_Brazil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/44px-Flag_of_Brazil.svg.png 2x" data-file-width="749" data-file-height="525"></a> Ronald Kyrmse <small>(1ª edição; HarperCollins Brasil)</small><br> <a href="/wiki/Portugal" title="Portugal"><img alt="Portugal" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/22px-Flag_of_Portugal.svg.png" decoding="async" width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/33px-Flag_of_Portugal.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/44px-Flag_of_Portugal.svg.png 2x" data-file-width="600" data-file-height="400"></a> António Rocha<br><a href="/wiki/Portugal" title="Portugal"><img alt="Portugal" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/22px-Flag_of_Portugal.svg.png" decoding="async" width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/33px-Flag_of_Portugal.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/44px-Flag_of_Portugal.svg.png 2x" data-file-width="600" data-file-height="400"></a> Alberto Monjardim</td>
+                </tr>
 
-    </div>
-</body>
+                <tr>
+                    <td scope="row" style="vertical-align: top; text-align: left; text-align:left;"><b>Editora</b></td>
+                    <td style="vertical-align: top; text-align: left; vertical-align: text-top; line-height: 1.5em;">Allen &amp; Unwin</td>
+                </tr>
+
+                <tr>
+                    <td scope="row" style="vertical-align: top; text-align: left; text-align:left;"><b>Publicado entre</b></td>
+                    <td style="vertical-align: top; text-align: left; vertical-align: text-top; line-height: 1.5em;"><div class="plainlist" style="margin-left: 0em;">
+                        <ul>
+                            <li>29 de julho de 1954</li>
+                            <li>11 de novembro de 1954</li>
+                            <li>20 de outubro de 1955</li>
+                        </ul>
+                </div>
+                </td></tr>
+            
+          </tbody>
+        </table>
+
+        <section>
+            <p style="text-align:justify">O Senhor dos Anéis (The Lord of the Rings, no original) é um livro de alta fantasia, escrito pelo escritor britânico J. R. R. Tolkien. Escrita entre 1937 e 1949, com muitas partes criadas durante a Segunda Guerra Mundial, a saga é uma continuação de O Hobbit (1937). Embora Tolkien tenha planejado realizá-la em volume único, a obra foi originalmente publicada em três volumes (The Fellowship of the Ring, The Two Towers e The Return of the King) entre 1954 e 1955, com cada volume contendo dois livros cada, e foi assim, em três volumes, que se tornou popular. Desde então, a obra foi reimpressa várias vezes e traduzida para mais de 40 línguas, vendendo mais de 160 milhões de cópias, tornando-se um dos trabalhos mais populares da literatura do século XX.</p>
+        </section>
+
+        <article>
+            <p style="text-align:justify">O "Um Anel" é o elemento central da saga. No anel, em inscrições no alfabeto Tengwar com versos na língua proibida de Mordor, pode-se ler: "Um Anel que a todos rege, Um Anel para achá-los, Um Anel que a todos traz, para na escuridão atá-los". Palavras em contínuo tanto na parte de dentro do anel, como na parte externa do anel. Isso se apresenta no início do livro, na apresentação da trilogia, no original em primeira edição em Inglês. Na saga, os vilões se autodestroem pelo próprio porte do anel.</p>
+            <p style="text-align:justify">A primeira edição em português, publicada no Brasil pela extinta editora Artenova do Rio de Janeiro — com a tradução de Antônio Rocha e Alberto Monjardim —, era constituída por seis volumes (tendo sido cada um dos três livros da série dividido em dois tomos, vendidos separadamente). Eram intitulados "Terra Mágica", "O Povo do Anel" (que formavam A Sociedade do Anel), "As Duas Torres", "A Volta do Anel" (que formavam As Duas Torres), "O Cerco de Gondor" e "O Retorno do Rei" (que fechavam a série formando o terceiro e último volume original, O Retorno do Rei). Todos esses seis livros foram lançados no país entre 1974 e 1979. A segunda edição em português foi editada e publicada em Portugal durante os anos 1980, pela editora Europa América, com os três volumes em separado. Uma terceira e por ora a última edição em língua portuguesa foi realizada pela brasileira editora Martins Fontes em 1991 e publicada em 1994. Nessa nova edição, a Martins Fontes corrigiu o "erro" da editora anterior em publicar seis tomos, unindo-os como publicado originalmente na Grã-Bretanha, sob os mesmos títulos, devidamente traduzidos. A atual detentora dos direitos de publicação das obras do Tolkien no Brasil é a Harpercollins Brasil. Muitos fãs ficaram chocados com algumas alterações feitas pela nova tradução. Porém, a tradução da Harpercollins é a mais fiel e a mais condizente com o que o Tolkien queria. Um exemplo dessas alterações é a mudança da palavra anões para anãos. A explicação para essa mudança é que em inglês anões significa dwarfs, porém, Tolkien usava o termo mais arcaico dessa palavra (Dwarves). Então, na nova tradução, decidiu-se usar o termo arcaico da palavra Anões, ou seja, Anãos. Outras alterações foram a mudança de Goblins para Gobelins, Orcs para Orques, e Floresta das Trevas para Trevamata. Todas essas alterações foram feitas para condizer mais com o que o Tolkien desejava. No caso de Orques e Gobelins, é porque o Tolkien dizia que se fosse para traduzir os termos Orc e Goblin, deve-se traduzir de acordo com a forma que se é pronunciado em cada país. O motivo de Floresta das Trevas ter virado Trevamata é simples. Trevamata é uma tradução mais acertada do termo em inglês, Mirkwood (Mirk= Trevas, wood= Mata, floresta, madeira).</p>
+
+            <h1>Estrutura da obra</h1>
+          </h2>
+
+          <h2 class="article-title" id="sinopse"><b>Sinopse</b></h2>
+
+          <p style="text-align:justify">A história de O Senhor dos Anéis ocorre num tempo e espaço imaginário, a Terceira Era da Terra Média, que é um mundo inspirado na Terra real, mais especificamente, segundo Tolkien, numa Europa mitológica, habitado por Humanos e por outras raças: Elfos, Anãos (anteriormente "Anões"), Hobbits e Orques (anteriormente "Orcs"). Tolkien nomeou esse lugar com uma palavra do inglês moderno, Middle-earth (Terra-Média), derivado do inglês antigo, Middangeard, o reino onde humanos vivem na mitologia Nórdica e Germânica. O próprio Tolkien disse que pretendia ambientá-la na nossa Terra, há aproximadamente 6.000 anos, embora a correspondência com a geografia e a história do mundo real fosse frágil.</p>
+
+          <h2 class="article-title" id="sociedade"><b>A Sociedade do Anel</b></h2>
+            <p style="text-align:justify">Frodo Bolseiro é um hobbit do Condado, que recebe de seu tio Bilbo um anel de rara beleza. Esse anel tem uma longa história: foi roubado de uma criatura chamada Gollum (como relatado no livro O Hobbit), e desde então ele tem sido guardado por Bilbo.<br>
+            O Mago Gandalf, um velho amigo de Bilbo, percebe o poder que aquele anel possui, não sendo um anel comum, mas sim o Um Anel, artefato mágico forjado por Sauron, o Senhor Sombrio, e que fora perdido numa batalha muito tempo antes. Se recuperado, o Um Anel permitiria a Sauron o domínio definitivo sobre toda a Terra-média. O Um Anel, ou Anel do Poder, dera longevidade fora do comum a seu antigo dono, Bilbo, e possuía consciência, uma vontade própria que o conduzia sempre na direção do seu criador e senhor. Gandalf aconselha Bilbo a deixar o Condado, planejado para ocorrer até a festa de aniversário daquele ano. Gandalf parte, para resolver alguns assuntos, mas combinando que voltaria para acompanhar Frodo, porém, não manda notícias durante vários meses. Chegando a data prevista, Bilbo decide deixar o Condado e deixa tudo para Frodo. Depois de um tempo, Gandalf retorna e convence Frodo a partir para destruir o anel, após vender Bolsão, Frodo leva consigo seus amigos Sam, Merry e Pippin para sua aventura.<br>
+            Os hobbits resolvem pegar um atalho que passa através da Floresta Velha, lar de árvores que se comunicam entre si. Dentro da Floresta, os hobbits são salvos de uma árvore violenta por um estranho ser que adora cantar: o enigmático Tom Bombadil, um dos maiores mistérios de Tolkien.<br>
+            Passando por outros perigos, os hobbits chegam a Bree, uma vila habitada por Homens e hobbits, perto da fronteira do Condado, e lá aceitam a ajuda de um Guardião chamado Passolargo, amigo de Gandalf, que os guia até Valfenda, um reino ainda habitado por elfos, seres imortais, detentores de grande poder, beleza e sabedoria. Mas o caminho ainda é perigoso: o grupo é emboscado no Topo do Vento e Frodo acaba apunhalado por um Nazgûl, Espectro do Anel. Passolargo consegue repelir a ofensiva do Inimigo e foge com Frodo, que está gravemente ferido, e os outros hobbits. Quando estão a ser novamente alcançados pelos Espectros do Anel, o elfo Glorfindel encontra-os e os conduz com segurança até Valfenda. Os Nazgûl tentam detê-los mas são varridos pela inundação súbita do rio Bruinem.<br>
+            Já curado, Frodo descobre as maravilhas de Valfenda e lá é realizado um conselho liderado por Elrond, o meio-elfo mestre de Valfenda e pai de Arwen, a amada de Passolargo, cujo verdadeiro nome é Aragorn, que se revela descendente de Isildur e herdeiro do Trono de Gondor.<br>
+            No Conselho de Elrond, são expostos os problemas relacionados ao Um Anel. Boromir, filho do regente de Gondor, sugere usar o Anel do Poder contra Sauron. Elrond e Gandalf rejeitam a ideia imediatamente e explicam os vários motivos pelos quais não podem usar o poder do Anel contra o Senhor Sombrio: Sauron é o único e verdadeiro Senhor do Anel, pois o forjou, sendo portanto totalmente maligno, além disso, seu poder é grande demais para ser controlado por mortais comuns e mesmo os poderosos entre os povos livres da Terra-Média, como os imortais elfos (Elrond) e os magos (Gandalf), temem inclusive tocá-lo.<br>
+            O poder quase absoluto do anel corrompe o carácter e deforma a personalidade daquele que se atreve a empunhá-lo, ainda que movido por boas intenções. Quem quer que tente derrotar Sauron utilizando o anel, acabará tornando-se o próximo Senhor Sombrio.<br>
+            Dada a impossibilidade de utilizar o Um Anel como arma de guerra, é imposta a tarefa de levá-lo até o Monte da Perdição, um vulcão localizado no centro de Mordor, a Terra Negra do Inimigo, onde o anel fora forjado e também o único lugar onde poderia ser destruído.<br>
+            Para essa missão, de sucesso improvável, é formada a Sociedade do Anel, composta por nove companheiros: quatro hobbits (Frodo, Sam, Merry e Pippin), dois humanos (Aragorn e Boromir), um elfo (Legolas), um anão (Gimli) e um mago (Gandalf). Frodo seria o "Portador do Anel", aquele que deveria lançar o Anel nos fogos de Orodruin.<br>
+            A Sociedade do Anel parte em direção ao sul. Cientes que essa rota está sendo vigiada pelo Inimigo, o grupo faz um desvio para Leste através das montanhas Hithaeglir, mas são obrigados a voltar por causa da neve e do frio. Um caminho alternativo leva-os até a temida Moria, reino subterrâneo dos anãos, onde são emboscados por um Balrog, um demônio do mundo antigo, Gandalf luta com ele e morre. Os outros companheiros escapam e chegam em segurança a Lothlórien, reino da rainha élfica Galadriel, temida por seu poder mas dotada de rara beleza e sabedoria. Nesse reino encantado, onde o tempo parece não passar, os viajantes recebem auxílio e conselhos. Após algumas semanas de descanso, a Sociedade do Anel agora liderada por Aragorn, parte de Lothlorien em direção ao Sul, navegando pelo grande rio Anduin em canoas construídas pelos elfos da Floresta Dourada. Quando param para descansar próximo às cataratas de Rauros, Boromir tem uma discussão com Frodo, e tenta roubar-lhe o Anel do Poder. Frodo foge e decide ir sozinho para Mordor, mas acaba levando Sam. Quando os outros membros da Sociedade do Anel vão em busca de Frodo, são atacados por Uruk-hai (sub-espécie de Orques, mais alta e forte) enviados por Saruman, um mago renegado que se aliou a Sauron, mas que também ambiciona o Anel do Poder.<br>
+            Na luta que se segue, a Sociedade é rompida: Merry e Pippin são capturados pelos Uruk-hai, Boromir morre ao defendê-los; Aragorn, Legolas e Gimli decidem resgatar os hobbits aprisionados, além de Frodo e Sam, que partem sozinhos para o Monte da Perdição.
+        </p>
+            
+            <h2 class="article-title" id="torres"><b>As Duas Torres</b></h2>
+                <p style="text-align:justify">Aragorn, Legolas e Gimli seguem os rastros dos hobbits capturados (Merry e Pippin) e o caminho os leva até a Floresta de Fangorn. Nela encontram o Mago Branco que inicialmente pensam ser Saruman, o traidor. No entanto, o velho enigmático revela-se Gandalf, que morreu enfrentando o Balrog e retornou da morte para cumprir sua missão na Terra-Média.<br>
+                    Os quatro seguem então para Rohan, Terra dos Cavalos. Sua capital Edoras fica no alto de uma colina, onde os rohirrim ergueram Meduseld, O Palácio Dourado. Nele, vive o rei Théoden, cuja mente fora envenenada por Saruman através de um agente infiltrado, o conselheiro Gríma Língua-de-cobra. Gandalf expulsa Grima, cura o rei de seus males, e o aconselha a enfrentar a ameaça de Saruman e partir rumo a Isengard, fortaleza de Saruman, com todos os guerreiros disponíveis.<br>
+                    Enquanto isso, os hobbits Merry e Pippin conseguem escapar dos uruk-hais, e fogem para o interior da Floresta de Fangorn. Lá encontram Barbárvore, um Ent, um gigante em forma de árvore, e cujas origens remontam a tempos muitíssimo mais antigos que a Terceira Era, na qual se passa essa história.<br>
+                    Barbárvore leva Merry e Pippin a sua casa, onde descansam enquanto os Ents são convocados para uma reunião no qual se discute, na lentíssima língua dos ents, o que fazer com o Inimigo Saruman. Os Ents decidem ir à guerra e partem rumo a Isengard. Os Ents invadem a fortaleza de Saruman, massacram os odiados orques, que haviam derrubado muitas árvores de Fangorn, e apagam as fornalhas de Isengard desviando o curso do Rio Isen. Todo o círculo de Orthanc é inundado, ficando Saruman isolado pelas águas em sua Torre de pedra.<br>
+                    De volta a Rohan, o rei Theoden envia velhos, mulheres e crianças para a segurança do Templo da Colina, um refúgio nas montanhas, enquanto os cavaleiros de Rohan partem em direção a Isengard. Entretanto, são obrigados a fazer um desvio que os leva até o Abismo de Helm, um estreito desfiladeiro onde os rohirrim construíram uma fortaleza de pedra (o Forte da Trompa"). Nela, as tropas de Rohan buscam refúgio mas acabam sitiadas pelos Uruk-hai de Saruman. Após horas de batalha sangrenta, os orques são derrotados com a ajuda de outras tropas de Rohirrim, trazidas por Gandalf. Os Orques remanescentes fogem mas são massacrados pelos Huorns, Ents mais arvorescos, que buscam vingança pela destruição da Floresta de Fangorn.<br>
+                    Finda a Batalha do Abismo de Helm, o rei Theoden, Gandalf, Aragorn, Legolas e Gimli, cavalgam até Isengard. Ao chegarem lá, encontram Merry e Pippin sãos e salvos, e surpreendem-se com os hobbits se fartando com as provisões de comida, vinho e fumo da fortaleza do Inimigo. Numa última e desesperada tentativa, Saruman procura seduzir o grupo com sua voz persuasiva, quase hipnótica, mas Gandalf anula o feitiço e ainda o expulsa da ordem dos Istari, quebrando seu bastão. Nesse momento, Gríma língua-de-cobra atira da Torre de Orthanc um Palantír, pedra vidente que é capaz de comunicar-se com outras semelhantes. Gandalf recolhe-a para posterior averiguação.<br>
+                    À noite no acampamento, Pippin, em sua incontrolável curiosidade, agarra o Palantír e olha para o seu interior, e numa visão, vê o próprio Sauron, mas por sorte não revela nada dos planos dos povos livres, e ainda vê uma parte dos planos do Senhor dos Anéis: seu primeiro ataque será contra a capital do Reino de Gondor, a cidade de Minas Tirith.<br>
+                    Gandalf parte então com Pippin para Minas Tirith a fim de alertar Gondor da guerra iminente, encerrando assim a primeira parte de As Duas Torres.<br>
+                    A segunda parte do livro, que fala sobre Frodo e Sam, inicia-se com a captura de Gollum. Em troca de sua liberdade, ele promete levar os dois até Mordor, onde fica o Monte da Perdição. Assim é feito.<br>
+                    Mas Gollum não é totalmente fiel, nem totalmente sincero. Apenas Sam é capaz de perceber suas verdadeiras intenções. Gollum é uma criatura velha e "pegajosa" que já foi parecido com um hobbit, mas que foi possuído pelo poder do Um Anel, e jamais conseguiu libertar-se dessa atração: um lado de sua personalidade dividida quer levar os hobbits até Mordor em segurança, mas a outra pretende matá-los e apossar-se do Anel que lhe foi roubado.<br>
+                    Atravessando vários lugares, os hobbits são guiados até o Portão Negro de Mordor, mas este está fechado, e os hobbits, conduzidos por Gollum, seguem outro caminho.<br>
+                    Ao pararem para descansar e comer, Frodo e Sam testemunham uma batalha entre Homens de Gondor e os Haradrim, aliados de Sauron. Gollum desaparece e os hobbits são capturados por uma patrulha chefiada por Faramir, irmão de Boromir. Frodo e Sam são levados até um esconderijo situado atrás de uma cachoeira onde Sam inadvertidamente revela o objetivo da missão (a destruição do anel do poder).<br>
+                    Frodo repreende Sam e teme que Faramir seja como seu falecido irmão e queira tomar o anel para si. Entretanto, para sua surpresa, Faramir revela grande força de caráter e nobreza de coração, e os liberta para que possam cumprir sua tarefa.<br>
+                    Os hobbits reiniciam sua jornada para Mordor, com Gollum como seu guia, e decidem atravessar as montanhas através de Cirith Ungol, local de má fama, considerado maldito e perigoso. Este caminho os leva até uma escada talhada em um paredão de rocha, que termina num túnel. O plano de Gollum, que se rendeu ao mal, é guiá-los através desse túnel e lá dentro entregá-los a Laracna, uma aranha gigantesca, descendente da terrível Ungoliant. O esquema de Gollum funciona em parte: Frodo é picado por Laracna, mas Sam luta desesperadamente contra o terrível aracnídeo e acaba derrotando-o com um golpe de espada num ponto fraco de sua couraça.<br>
+                    Convicto da morte de Frodo, Sam decide assumir o fardo do anel e completar a missão de seu mestre. Nesse ínterim, uma patrulha de orques se aproxima, e Sam volta para evitar que o cadáver de Frodo vire carniça de orques. Sam ouve a conversa dos servos de Sauron e tem um choque ao saber que Frodo na verdade não estava morto, apenas inconsciente.As Duas Torres termina com os orques levando o adormecido Frodo para a Torre de Cirith Ungol e com o Hobbit Samwise Gamgi em desespero, que tem de escolher entre continuar a missão do Anel ou tentar salvar Frodo das garras dos orques.
+                </p>
+
+            <h2 class="article-title" id="retorno"><b>O Retorno do Rei</b></h2>
+                <p style="text-align:justify">Gandalf e Pippin entram na cidade de Minas Tirith, onde se encontram com Denethor, regente do reino de Gondor. Gandalf o avisa da guerra próxima, e o regente pede a ajuda de Rohan, mas revela seu rancor por Aragorn, que, sendo descendente direto do último rei, é o herdeiro legítimo do trono de Gondor. Merry, entretanto, permanece com os rohirrim, para servir ao rei Théoden, que reúne todos os guerreiros aptos de seu reino e parte para a guerra em Minas Tirith. Junto com ele vão Aragorn, Legolas e Gimli.<br>
+                    Enquanto isso, Sam adentra na torre de Cirith Ungol, e resgata Frodo, que era mantido prisioneiro. Com muita sorte, ambos escapam dos muitos orques, e adentram Mordor, uma imensa terra devastada, coberta de pó, cinza e fogo, cujo próprio ar é carregado de fumaça venenosa.<br>
+                    Após receberem uma mensagem de Elrond, Aragorn, Legolas e Gimli deixam o exército de Rohan e viajam então para as Sendas dos Mortos. Lá Aragorn convoca um exército de almas penadas/ mortos-vivos (o livro não deixa muito claro) a cumprirem um antigo juramento de lealdade para com Isildur, o primeiro rei de Gondor e seu ancestral direto. Os mortos haviam jurado lutar ao lado de Gondor mas fugiram para as montanhas quando foram chamados à guerra. Isildur então os amaldiçoou a não terem paz, nem na vida nem na morte, até que sua promessa fosse cumprida.<br>
+                    Quando a guerra se abate sobre Gondor, o exército dos mortos, liderado por Aragorn, liberta um porto no grande rio Anduin, dominado pelos Haradrim (habitantes do sul da Terra-Média), o que permite o embarque de tropas aliadas que vão em auxílio de Minas Tirith, sitiada pelas Tropas de Sauron. Terminada a batalha dos Campos do Pelennor,que ainda não fora a batalha definitiva, os exércitos de Gondor e Rohan, marcham rumo ao Portão Negro de Mordor. O objetivo da arriscada manobra é atrair os exércitos remanescentes do Inimigo e esvaziar a Terra Negra, possibilitando a passagem de Frodo e Sam até o Monte da Perdição, onde o Anel do Poder poderia ser destruído.<br>
+                    Tudo ocorre como previsto: os exércitos de Mordor caem na armadilha. Frodo e Sam conseguem passar, todavia antes de entrarem no Monte da Perdição, encontram Gollum em seu caminho. Os hobbits se separam, Frodo adentra as Fendas da Perdição, uma câmara no vulcão que dá acesso à lava chamejante. Quando já está à beira do precipício, surpreendentemente, Frodo é dominado pelo Anel do Poder e o reivindica para sí. Nisso, Gollum intervém, ele e Frodo lutam ferozmente, até que Gollum arranca o anel das mãos de Frodo. Gollum escorrega e cai acidentalmente na lava ardente, levando consigo o Um Anel, que é destruído, assim como Sauron, cujo espírito estava vinculado ao anel, e seus servos orques, que dependiam de sua força e comando.<br>
+                    Aragorn, então, assume o trono de Gondor com o nome élfico Elessar, sendo coroado Rei por Gandalf, e se casa com a meia-elfa Arwen. Tem início assim a Quarta Era, a era do Domínio dos Homens. Os elfos remanescentes da Terra-Média decidem partir para Aman, morada dos deuses Valar.<br>
+                    Os quatro Hobbits então retornam para o Condado, tendo que enfrentar um último inimigo: Saruman que se apossou do Condado. Mas o mago acaba morto pelas mãos de Grima Língua-de-cobra, e a paz volta à terra dos hobbits.<br>
+                    O livro termina com a partida para as Terras Imortais (Aman) de Gandalf, Galadriel, Elrond assim como dos hobbits Frodo e seu tio Bilbo, que, embora mortais, conquistam o direito de viver o resto de seus dias junto aos Elfos e aos Valar, como reconhecimento de sua lealdade e sacrifício durante a Guerra contra Sauron e por terem sido portadores do Um Anel.<br>
+                </p>
+                
+        </article>
+      </div>
+
+      <nav class="anchors">
+        <h2>Veja também</h2>
+        <ul>
+          <li>
+            <a href="https://pt.wikipedia.org/wiki/Istari" target="_blank">Istari</a>
+          </li>
+          <li>
+            <a href="https://pt.wikipedia.org/wiki/Hobbit">Hobbit</a>
+          </li>
+          <li><a href="https://pt.wikipedia.org/wiki/O_Hobbit">O Hobbit</a></li>
+          <li><a href="https://pt.wikipedia.org/wiki/Silmarillion">O Silmarillion</a></li>
+        </ul>
+      </nav>
+    </main>
+
+    <i><footer style="text-align:right;" class="footer">Desenvolvido por Jonathan Mendes</a></footer></i>
+  </body>
 </html>
